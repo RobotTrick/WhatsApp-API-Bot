@@ -2,7 +2,7 @@
 
 # WhatsApp API Bot
 
-### Telegram bot to create messages links to WhatsApp chats.
+### Telegram bot to create direct links with pre-filled text for WhatsApp Chats
 
 > You can check our bot [here](https://t.me/WhatsAppAPIbot).
 
@@ -48,8 +48,8 @@ api_id = XXXXXXXXXXX
 api_hash = XXXXXXXXXXXXXXXXXXXXXXXXXX
 bot_token = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
-the ``api_id`` & ``api_hash`` You can get from [my.telegram.org](https://my.telegram.org).
-``bot_token`` & ``bot_username`` you can get by create new bot on [BotFather](https://t.me/BotFather).
+* ``api_id`` & ``api_hash`` You can get from [my.telegram.org](https://my.telegram.org).
+* ``bot_token`` you can get by create new bot on [BotFather](https://t.me/BotFather).
 - Run the bot:
 ```
 python3 main.py
