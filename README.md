@@ -1,12 +1,12 @@
-<img src="https://lh3.googleusercontent.com/proxy/8_-JRpJVLdqqxjkhqG6_p-akM2myMMwHgHU9Mg8JIgW7whClHBGptQZ3-jL0VFXDaxlfR0ffS5i61pJIuun3YhVxKja1EMKObKFOpkyTA3lkLpXrPaotjlofkhtfW7SF3q8cjGc" width="100" height="100">
+<img src="https://img.icons8.com/ios/50/000000/whatsapp.png" width="100" height="100">
 
 # WhatsApp API Bot
 
-> ### Telegram bot to create messages links to WhatsApp chats.
+### Telegram bot to create messages links to WhatsApp chats.
 
-_You can check our bot [here](https://t.me/WhatsAppAPIbot)._
+> You can check our bot [here](https://t.me/WhatsAppAPIbot).
 
-The bot is based on the API [provided](https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat/) by WhatsApp
+The bot is based on the API [provided](https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat/) by WhatsApp.
 
 ## Translation Contributions
 You can add your language to the bot by editing the [strings.py](/strings.py) file and adding a translation in the appropriate format:
@@ -24,6 +24,7 @@ strings = {
     }
 }
 ```
+- Add your language code as key, the lang-code should be in `IETF language tag` format.
 - Try to stick to the format and translate from the English language available in the file.
 - Maintain the position of the special characters (emojis, `.*,-/\{}`).
 - When you done, open a __pull request__ or send us the file to [our](https://t.me/RobotTrickSupport) Telegram.
@@ -34,7 +35,7 @@ strings = {
 
 - Clone this reposetory:
 ```
-git clone https://github.com/david-lev/WhatsApp-API-Bot.git
+git clone https://github.com/RobotTrick/WhatsApp-API-Bot.git
 ```
 - Install requirements (``pyrogram, tgcrypto``):
 ```
