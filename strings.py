@@ -45,7 +45,7 @@ strings = {
               "You can also use me Inline! Type in the bot user followed by the phone number and text.\n"
               "\n- For help send /help"
               "\n- We need your help translating the bot! For more information send /translate"
-              "\n\n\n",
+              "\n\n- This bot made with ❤️ by [David Lev]({}) & [Yehuda By]({}) from [RobotTrick]({}) team.",
         "he": "היי {} 👋\n\n"
               "תוכל לשלוח לי מספר טלפון וטקסט ואני אחזיר קישור שבלחיצה עליו תועבר לצ'אט וואטסאפ עם "
               "אותו "
@@ -53,6 +53,7 @@ strings = {
               "ניתן להשתמש בי גם באינליין! הקלד את יוזר הבוט ולאחריו את מספר הטלפון והטקסט."
               "\n\n- לעזרה שלחו /help"
               "\n- אנו זקוקים לעזרתכם בתרגום הבוט! למידע נוסף שלחו /translate"
+              "\n\n- הבוט נוצר על ידי [David Lev]({}) & [Yehuda By]({}) מצוות [רובוטריק]({})."
     },
     "repo": {
         "en": "🛠 GitHub",

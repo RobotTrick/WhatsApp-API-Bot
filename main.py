@@ -131,8 +131,13 @@ def do_not_replay_to_ask(_, message: types.Message):
 @app.on_message(filters.command(["start", "help", "translate"]) & filters.private)
 def start(_, message: types.Message):
     if message.command == ["start"]:
-        txt = lang_msg(message, "start_msg")
-        message.reply(txt.format(message.from_user.mention), disable_web_page_preview=True,
+        txt = lang_msg(message, "start_msg").format(
+            message.from_user.mention,
+            "https://t.me/davidlev",
+            "https://t.me/m100achuzBots",
+            "https://t.me/robot_trick_channel"
+        )
+        message.reply(txt, disable_web_page_preview=True,
                       reply_markup=types.InlineKeyboardMarkup([[
                           types.InlineKeyboardButton(lang_msg(message, "repo"),
                                                      url=lang_msg(message, "url_repo")),
