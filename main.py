@@ -20,9 +20,10 @@ def create_url(phone: str, text: str) -> str:
     return format_url.format(phone, parse.quote(text))
 
 
-def save_user(uid: int):
+def save_user(uid: int, save_use: bool = True):
     """ save user/chat id to DB """
-    save_uses()
+    if save_use:
+        save_uses()
     ids_file = "users.json"
     try:
         with open(ids_file, "r") as oFile:
@@ -81,7 +82,7 @@ def replay_url(_, message: types.Message):
                       types.InlineKeyboardButton(lang_msg(message, "share_btn"),
                                                  switch_inline_query=f"{number} {message.text}")
                   ]]))
-    save_user(message.chat.id)
+    save_user(message.from_user.id)
 
 
 valid_re = r"^(?P<number>[0-9+]{10,16}) (?P<text>.*)"
@@ -108,7 +109,7 @@ def inline(_, query: types.InlineQuery):
 
         description=lang_msg(query, "replay_url").format(url),
 
-        thumb_url="https://telegra.ph/file/d89f5b180b532a85784a4.png"
+        thumb_url="https://user-images.githubusercontent.com/42866208/129119407-17ea2432-7057-4501-8015-119c6da33bad.png"
     )])
     save_user(query.from_user.id)
 
@@ -152,6 +153,8 @@ def start(_, message: types.Message):
                           types.InlineKeyboardButton(lang_msg(message, "support"),
                                                      url="https://t.me/RobotTrickSupport")
                       ]]))
+
+    save_user(message.from_user.id, False)
 
 
 app.run()
