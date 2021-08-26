@@ -77,12 +77,7 @@ strings = {
         "he": "🛠 גיטהאב"
     },
     "url_repo": {
-        "en": "https://github.com/RobotTrick/WhatsApp-API-Bot",
-        "it": "https://github.com/RobotTrick/WhatsApp-API-Bot",
-        "he": "https://github.com/RobotTrick/WhatsApp-API-Bot"
-        # Tis note is made by Seba (telegram id:385966887): you forgot to put the "he" translation, I just added it
-        
-
+        "en": "https://github.com/RobotTrick/WhatsApp-API-Bot"
     },
     "support": {
         "en": "👤 Support",
@@ -135,15 +130,14 @@ strings = {
         "it": "**🔡 Abbiamo bisogno del tuo aiuto per tradurre il bot!**"
               "\n\nSe sei interessato a tradurre il bot nella tua lingua o in un'altra lingua, vai alle "
               "stringhe su GitHub, scaricalo o modificalo online e aggiungi le stringhe al file in base al "
-              "formato esistente".
-              "\n- Ti sei impasticciato, hai bisogno di aiuto? Contatta il nostro utente dell'assistenza.",
+              "formato esistente",
+        "\n- Ti sei impasticciato, hai bisogno di aiuto? Contatta il nostro utente dell'assistenza."
         "he": "**🔡 אנו צריכים את עזרתכם בתרגום הבוט!**"
               "\n\nאם הנכם מעוניינים לתרגם את הבוט לשפתכם או לשפה אחרת, עברו לקובץ ההודעות בגיטהאב, הורידו אותו או "
               "ערכו "
               "באונליין והוסיפו את המחרוזות לקובץ על פי הפורמט הקיים. \n\n- הסתבכתם, זקוקים לעזרה? פנו למשתמש התמיכה "
               "שלנו. "
     }
-
 }
 
 
@@ -159,3 +153,4 @@ def lang_msg(msg_obj: Union[Message, InlineQuery], msg_to_rpl: str) -> Union[str
         return msg[lang_client]
     else:
         return msg["en"]
+    
