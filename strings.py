@@ -68,7 +68,7 @@ strings = {
               "mandato su WhatsApp del numero e con il testo pronto per l'invio!\n"
               "Puoi anche usarmi Inline! Digita lo username del bot seguito dal numero di telefono e dal testo.\n "
               "\n- Per altro invia /help"
-              "\n- Abbiamo bisogno del tuo aiuto per tradurre il bot! Per maggiori informazioni invia /traduci"
+              "\n- Abbiamo bisogno del tuo aiuto per tradurre il bot! Per maggiori informazioni invia /translate"
               "\n\n- Questo bot è realizzato con il ❤️ da [David Lev]({}) e [Yehuda By]({}) dal team [RobotTrick]({}).",
         "he": "היי {} 👋\n\n"
               "תוכל לשלוח לי מספר טלפון וטקסט ואני אחזיר קישור שבלחיצה עליו תועבר לצ'אט וואטסאפ עם "
@@ -77,15 +77,14 @@ strings = {
               "ניתן להשתמש בי גם באינליין! הקלד את יוזר הבוט ולאחריו את מספר הטלפון והטקסט."
               "\n\n- לעזרה שלחו /help"
               "\n- אנו זקוקים לעזרתכם בתרגום הבוט! למידע נוסף שלחו /translate"
-              "\n\n- הבוט נוצר על ידי [David Lev]({}) & [Yehuda By]({}) מצוות [רובוטריק]({})."
+              "\n\n- הבוט נוצר על ידי [David Lev]({}) & [Yehuda By]({}) מצוות [רובוטריק]({}).",
         "de": "Hallo {} 👋!\n\n"
               "Du kannst mir eine Telefonnummer und einen Text geben und ich werde dir einen Link senden, der beim anklicken "
               "in den WhatsApp-Chat mit der gleichen Nummer und dem fertigen Text übertragen wird!\n"
               "Du kannst mich auch Inline nutzen! Gib den Bot-Namen, gefolgt von der Telefonnummer und dem Text ein.\n"
               "\n- Für Hilfe sende /help"
               "\n- Wir brauchen deine Hilfe beim Übersetzen des Bots. Für mehr Informationen sende /translate!"
-              "\n\n- Dieser Bot wurde mit ❤️ von [David Lev]({}) & [Yehuda By]({}) vom [RobotTrick]({}) Team erstellt "
-              "und von @TLGRM_Support ins Deutsche übersetzt."
+              "\n\n- Dieser Bot wurde mit ❤️ von [David Lev]({}) & [Yehuda By]({}) vom [RobotTrick]({}) Team erstellt"
     },
     "repo": {
         "en": "🛠 GitHub",
@@ -124,7 +123,7 @@ strings = {
               "\n1. --Messaggi e risposte:--"
               "\n- Invia il numero di telefono."
               "\n- Rispondi al **messaggio numerico** con il testo da inviare."
-              "\n- Ricevi un link da cliccare e copiare.\n"
+              "\n- Ricevi un link da cliccare e copiare."
               "\n\n2. --Uso Inline:--"
               "\n- Digita lo username del bot in qualsiasi chat."
               "\n- Dopodiché digita un numero di telefono e subito dopo un messaggio da inviare."
@@ -154,23 +153,26 @@ strings = {
         "en": "**🔡 We need your help translating the bot!**"
               "\n\nIf you are interested in translating the bot into your language or to another language, go to the "
               "strings file in GitHub, download it or edit it online and add the strings to the file according to the "
-              "existing format. ",
+              "existing format. "
               "\n- Got tangled up, need help? Contact our support user.",
         "it": "**🔡 Abbiamo bisogno del tuo aiuto per tradurre il bot!**"
               "\n\nSe sei interessato a tradurre il bot nella tua lingua o in un'altra lingua, vai alle "
               "stringhe su GitHub, scaricalo o modificalo online e aggiungi le stringhe al file in base al "
-              "formato esistente",
-        "\n- Ti sei impasticciato, hai bisogno di aiuto? Contatta il nostro utente dell'assistenza."
+              "formato esistente"
+              "\n- Ti sei impasticciato, hai bisogno di aiuto? Contatta il nostro utente dell'assistenza."
+              "\n\n㊗️Translate by @SebaBio",
         "he": "**🔡 אנו צריכים את עזרתכם בתרגום הבוט!**"
               "\n\nאם הנכם מעוניינים לתרגם את הבוט לשפתכם או לשפה אחרת, עברו לקובץ ההודעות בגיטהאב, הורידו אותו או "
               "ערכו "
               "באונליין והוסיפו את המחרוזות לקובץ על פי הפורמט הקיים. \n\n- הסתבכתם, זקוקים לעזרה? פנו למשתמש התמיכה "
               "שלנו. ",
         "de": "**🔡 Wir brauchen deine Hilfe bei der Übersetzung des Bots!**"
-              "\n\nWenn du daran interessiert bist, den Bot in deine Sprache oder in eine andere Sprache zu übersetzen, gehe zu der "
+              "\n\nWenn du daran interessiert bist, den Bot in deine Sprache oder in eine andere Sprache zu "
+              "übersetzen, gehe zu der "
               "Strings-Datei auf GitHub, lade sie herunter oder bearbeite sie online und füge die Strings gemäß dem "
               " bestehenden Format ein."
               " Hast du dich verirrt und brauchst Hilfe? Kontaktiere unseren Support."
+              "\n\n㊗️Translate by @TLGRM_Support"
     }
 }
 
@@ -187,4 +189,3 @@ def lang_msg(msg_obj: Union[Message, InlineQuery], msg_to_rpl: str) -> Union[str
         return msg[lang_client]
     else:
         return msg["en"]
-    
