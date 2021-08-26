@@ -3,12 +3,26 @@ import json
 from pyrogram import Client, filters, types
 import configparser
 from re import search
-from strings import lang_msg
+from strings import strings
+from typing import Union
+from pyrogram.types import Message, InlineQuery
 
 config = configparser.ConfigParser()
 config.read('config.ini')
 
 app = Client("WA")
+
+
+# Return message depend on the client language:
+def lang_msg(msg_obj: Union[Message, InlineQuery], msg_to_rpl: str) -> Union[str, bool]:
+    msg = strings.get(msg_to_rpl)
+    if not msg:
+        return False
+    lang_client = msg_obj.from_user.language_code
+    if msg.get(lang_client):
+        return msg[lang_client]
+    else:
+        return msg["en"]
 
 
 # Return encoded url

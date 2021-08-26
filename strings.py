@@ -1,6 +1,3 @@
-from typing import Union
-from pyrogram.types import Message, InlineQuery
-
 # Here you can add your language strings. just add on every dict new key with your language code and insert the value.
 # keep you're mind that languages are displayed accordingly to your client (app, software) lang.
 
@@ -210,17 +207,3 @@ strings = {
               "\n\n㊗ Translate by @Dylan_22"
     }
 }
-
-
-# Return message depend on the client language:
-def lang_msg(msg_obj: Union[Message, InlineQuery], msg_to_rpl: str) -> Union[str, bool]:
-    msg = strings.get(msg_to_rpl)
-
-    if not msg:
-        return False
-
-    lang_client = msg_obj.from_user.language_code
-    if msg.get(lang_client):
-        return msg[lang_client]
-    else:
-        return msg["en"]
