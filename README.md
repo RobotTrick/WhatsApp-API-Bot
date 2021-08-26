@@ -58,6 +58,7 @@ python3 main.py
 ## Supported languages
 - [x] English
 - [x] Hebrew
+- [x] Italian (By [@seba7193](https://t.me/SebaBio))
 
 ## TODO's
 - [x] Send message to specific phone number.
