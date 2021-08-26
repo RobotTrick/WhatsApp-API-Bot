@@ -8,42 +8,50 @@ strings = {
     "ask_replay": {
         "en": "✍️ Replay to the phone-number-message with your text",
         "it": "✍️ Rispondi al messaggio del numero di telefono con il tuo testo",
-        "he": "✍️ הגיבו להודעה שבה שלחתם את מספר הטלפון עם הטקסט שתרצו"
+        "he": "✍️ הגיבו להודעה שבה שלחתם את מספר הטלפון עם הטקסט שתרצו",
+        "de": "✍️ Antworte zur Telefonnummer-Nachricht mit deinem Text"
     },
     "number_invalid": {
         "en": "☎️ You can only replay on messages that contains phone number",
         "it": "☎️ Puoi rispondere solo a messaggi che contengono un numero di telefono",
-        "he": "☎ ️ ניתן להגיב עם טקסט רק על הודעות שמכילות מספר טלפון"
+        "he": "☎ ️ ניתן להגיב עם טקסט רק על הודעות שמכילות מספר טלפון",
+        "de": "☎️ Du kannst nur Nachrichten wiedergeben, die eine Telefonnummer enthalten"
     },
     "invalid_length": {
         "en": "❌ Please input correct number (International format, for example +97212345678)",
         "it": "❌ Inserisci un numero corretto (formato internazionale, ad esempio +39123456789)",
-        "he": "❌ הזינו מספר טלפון תקין בפורמט בינלאומי"
+        "he": "❌ הזינו מספר טלפון תקין בפורמט בינלאומי",
+        "de": "❌ Bitte korrekte Nummer eingeben (Internationales Format, z.B. +491731234567)"
     },
     "replay_url": {
         "en": "Click here to get/copy your link: {}",
         "it": "Clicca qui per ottenere/copiare il link: {}",
-        "he": "לחץ כאן כדי לקבל/להעתיק את הקישור: {}"
+        "he": "לחץ כאן כדי לקבל/להעתיק את הקישור: {}",
+        "de": "Klicke hier, um deinen Link zu erhalten/kopieren: {}"
     },
     "url_btn": {
         "en": "🔗 Url",
         "it": "🔗 Link",
-        "he": "🔗 לינק"
+        "he": "🔗 לינק",
+        "de": "🔗 Url"
     },
     "share_btn": {
-        "en": "♻ Share",
+        "en": "♻️ Share",
         "it": "♻️ Condividi",
-        "he": "♻️ שיתוף"
+        "he": "♻️ שיתוף",
+        "de": "♻️ Teilen"
     },
     "do_not_replay_to_ask": {
         "en": "💬 Please replay to message with phone number",
         "it": "💬 Rispondi al messaggio con il numero di teefono",
-        "he": "💬 אנא הגב על הודעה שבה מופיע מספר טלפון"
+        "he": "💬 אנא הגב על הודעה שבה מופיע מספר טלפון",
+        "de": "💬 Bitte wiederhole die Nachricht mit Telefonnummer"
     },
     "inline_btn": {
         "en": "🔁 Try inline!",
         "it": "🔁 Prova inline!",
-        "he": "🔁 נסו באינליין!"
+        "he": "🔁 נסו באינליין!",
+        "de": "🔁 Versuche es Inline!"
     },
     "start_msg": {
         "en": "Hi {} 👋\n\n"
@@ -70,11 +78,20 @@ strings = {
               "\n\n- לעזרה שלחו /help"
               "\n- אנו זקוקים לעזרתכם בתרגום הבוט! למידע נוסף שלחו /translate"
               "\n\n- הבוט נוצר על ידי [David Lev]({}) & [Yehuda By]({}) מצוות [רובוטריק]({})."
+        "de": "Hallo {} 👋!\n\n"
+              "Du kannst mir eine Telefonnummer und einen Text geben und ich werde dir einen Link senden, der beim anklicken "
+              "in den WhatsApp-Chat mit der gleichen Nummer und dem fertigen Text übertragen wird!\n"
+              "Du kannst mich auch Inline nutzen! Gib den Bot-Namen, gefolgt von der Telefonnummer und dem Text ein.\n"
+              "\n- Für Hilfe sende /help"
+              "\n- Wir brauchen deine Hilfe beim Übersetzen des Bots. Für mehr Informationen sende /translate!"
+              "\n\n- Dieser Bot wurde mit ❤️ von [David Lev]({}) & [Yehuda By]({}) vom [RobotTrick]({}) Team erstellt "
+              "und von @TLGRM_Support ins Deutsche übersetzt."
     },
     "repo": {
         "en": "🛠 GitHub",
         "it": "🛠 GitHub",
-        "he": "🛠 גיטהאב"
+        "he": "🛠 גיטהאב",
+        "de": "🛠 GitHub"
     },
     "url_repo": {
         "en": "https://github.com/RobotTrick/WhatsApp-API-Bot"
@@ -82,12 +99,14 @@ strings = {
     "support": {
         "en": "👤 Support",
         "it": "👤 Supporto",
-        "he": "👤 תמיכה"
+        "he": "👤 תמיכה",
+        "de": "👤 Hilfe"
     },
     "input_sug": {
         "en": "Enter input like +97212345678 Hello from Telegram",
         "it": "Inserisci un input come +39123456789 Ciao da Telegram",
-        "he": "הזינו טלפון וטקסט: 97212345678+ טקסט"
+        "he": "הזינו טלפון וטקסט: 97212345678+ טקסט",
+        "de": "Gib eine Nachricht wie z.B. +491731234567 Hello from Telegram ein.",
     },
     "help_msg": {
         "en": "This bot allows you to create direct links to WhatsApp chats with text ready to send."
@@ -119,13 +138,23 @@ strings = {
               "2. --שימוש באינליין:--\n"
               "- הקלידו את יוזר הבוט בכל צ'אט שתרצו.\n"
               "- לאחריו הקלידו מספר טלפון ומיד לאחריו טקסט לשליחה.\n"
-              "- הקליקו על התוצאה שתוצג ותקבלו את הקישור."
+              "- הקליקו על התוצאה שתוצג ותקבלו את הקישור.",
+        "de": "Dieser Bot ermöglicht es dir, direkte Links zu WhatsApp Chats mit versandfertigem Text zu erstellen."
+              "Es gibt zwei Möglichkeiten, diesen Bot zu nutzen:"
+              "\n1. --Nachrichten und Wiederholungen:--"
+              "\n- Sende die Telefonnummer."
+              "\n- Antworte auf die **Nummernnachricht** mit Text zum Senden."
+              "\n- Bereite einen Link zum Klicken und Kopieren vor.\n"
+              "\n\n2. --Inline-Nutzung:--"
+              "\n- Gib den Bot-Benutzernamen in einen beliebigen Chat ein."
+              "\n- Tippe anschließend eine Telefonnummer und direkt einen Text zum senden ein."
+              "\n- Klicke auf das Ergebnis, das angezeigt wird und du bekommst den Link zum Anklicken und Kopieren."
     },
     "translate": {
         "en": "**🔡 We need your help translating the bot!**"
               "\n\nIf you are interested in translating the bot into your language or to another language, go to the "
               "strings file in GitHub, download it or edit it online and add the strings to the file according to the "
-              "existing format. "
+              "existing format. ",
               "\n- Got tangled up, need help? Contact our support user.",
         "it": "**🔡 Abbiamo bisogno del tuo aiuto per tradurre il bot!**"
               "\n\nSe sei interessato a tradurre il bot nella tua lingua o in un'altra lingua, vai alle "
@@ -136,7 +165,12 @@ strings = {
               "\n\nאם הנכם מעוניינים לתרגם את הבוט לשפתכם או לשפה אחרת, עברו לקובץ ההודעות בגיטהאב, הורידו אותו או "
               "ערכו "
               "באונליין והוסיפו את המחרוזות לקובץ על פי הפורמט הקיים. \n\n- הסתבכתם, זקוקים לעזרה? פנו למשתמש התמיכה "
-              "שלנו. "
+              "שלנו. ",
+        "de": "**🔡 Wir brauchen deine Hilfe bei der Übersetzung des Bots!**"
+              "\n\nWenn du daran interessiert bist, den Bot in deine Sprache oder in eine andere Sprache zu übersetzen, gehe zu der "
+              "Strings-Datei auf GitHub, lade sie herunter oder bearbeite sie online und füge die Strings gemäß dem "
+              " bestehenden Format ein."
+              " Hast du dich verirrt und brauchst Hilfe? Kontaktiere unseren Support."
     }
 }
 
