@@ -59,6 +59,8 @@ python3 main.py
 - [x] English
 - [x] Hebrew
 - [x] Italian (By [@seba7193](https://t.me/SebaBio))
+- [x] Deutsch (By [@TLGRM_Support](https://t.me/TLGRM_Support))
+- [x] Spanish (By [@Dylan_22](https://t.me/Dylan_22))
 
 ## TODO's
 - [x] Send message to specific phone number.
