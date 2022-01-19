@@ -2,7 +2,7 @@ from urllib import parse
 import json
 from pyrogram import Client, filters, types
 import configparser
-from re import search
+from re import search, sub
 from strings import strings
 from typing import Union
 from pyrogram.types import Message, InlineQuery
@@ -78,6 +78,7 @@ def number_case(_, message: types.Message):
     lambda _, __, m: m.reply_to_message.text != lang_msg(m, "ask_replay")))
 def replay_url(_, message: types.Message):
     number = message.reply_to_message.text
+    number = sub(r"[^0-9+]", "", number)
     ex = search(r'[0-9+].*', number)
 
     if not ex:  # check if phone number invalid
