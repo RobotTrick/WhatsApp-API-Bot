@@ -3,14 +3,14 @@
 
 strings = {
     "ask_replay": {
-        "en": "✍️ Replay to the phone-number-message with your text",
+        "en": "✍️ Reply to the phone-number-message with your text",
         "it": "✍️ Rispondi al messaggio del numero di telefono con il tuo testo",
         "he": "✍️ הגיבו להודעה שבה שלחתם את מספר הטלפון עם הטקסט שתרצו",
         "de": "✍️ Antworte zur Telefonnummer-Nachricht mit deinem Text",
         "es": "✍️ Responder al mensaje del número de teléfono con tu texto"
     },
     "number_invalid": {
-        "en": "☎️ You can only replay on messages that contains phone number",
+        "en": "☎️ You can only reply on messages that contains phone number",
         "it": "☎️ Puoi rispondere solo a messaggi che contengono un numero di telefono",
         "he": "☎ ️ ניתן להגיב עם טקסט רק על הודעות שמכילות מספר טלפון",
         "de": "☎️ Du kannst nur Nachrichten wiedergeben, die eine Telefonnummer enthalten",
@@ -45,7 +45,7 @@ strings = {
         "es": "♻ Compartir"
     },
     "do_not_replay_to_ask": {
-        "en": "💬 Please replay to message with phone number",
+        "en": "💬 Please reply to message with phone number",
         "it": "💬 Rispondi al messaggio con il numero di teefono",
         "he": "💬 אנא הגב על הודעה שבה מופיע מספר טלפון",
         "de": "💬 Bitte wiederhole die Nachricht mit Telefonnummer",
@@ -126,9 +126,9 @@ strings = {
     "help_msg": {
         "en": "This bot allows you to create direct links to WhatsApp chats with text ready to send."
               "\n\nhere are two ways to use this bot:"
-              "\n1. --Messages and Replays:--"
+              "\n1. --Messages and Replies:--"
               "\n- Send the phone number."
-              "\n- Replay on the **number message** with text to send."
+              "\n- Reply on the **number message** with text to send."
               "\n- Get a link ready to click and to copy.\n"
               "\n\n2. --Using Inline:--"
               "\n- Type the bot username in any chat."
