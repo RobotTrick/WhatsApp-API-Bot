@@ -67,4 +67,4 @@ python3 main.py
 - [ ] Open chat with specific number.
 - [ ] Create link with pre-filled message to pick chat.
 ---
-Created with ❤️ by [David Lev](https://t.me/davidlev) & [Yehuda By](https://t.me/M100achuzBots)
+Created with ❤️ by [David Lev](https://t.me/davidlev) & [Yehuda By](https://yeudaby.com)
